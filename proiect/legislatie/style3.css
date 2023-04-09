@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color:#F6F6F6;
+    background-position: center;
+}
+.video {
+    position: none; 
+    bottom: 0;
+    margin-left: 13%;
+    margin-top:5%;
+    cursor: pointer;
+}
+.lectie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vezi-buton {
+    margin-left:20%;
+    margin-top:520px;
+    width:200px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 12px 40px;
+    background-color: #3A98B9;
+    cursor: pointer;
+}
+
+.box1 {
+    display: block;
+    background-color: #3A98B9;
+    width: 50%;
+    margin: auto;
+    align-self: center;
+    border-radius: 25px;
+    position: none;
+    top:650px;
+}
+
+.dropdown{
+    font-size:20px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 90%;
+    margin-left:10%;
+    color:black;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.titlu {
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.titlu h1 {
+    font-size: 30px;
+}
+
+.box1 p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.box1 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.box1 h2 {
+    text-align: left;
+    font-size: 22px;
+    color:darkblue;
+}
+
+.dropdown-options {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+.dropdown-options:hover{
+    border:1 px solid black;
+    background:#1da2d8;
+    transition: 1s;
+}
+
+.vezi-buton:hover {
+    border: 1 px solid black;
+    background: #1da2d8;
+    transition: 1s;
+}
+
+@media (max-width: 400px) {
+    .box1 {
+         top:90%; 
+        width: 300px;
+         left: 50%;
+    }
+
+    .vezi-buton {
+        left: 490px; 
+        margin-top:10%;
+        margin-left:30%;
+        margin-bottom:10%;
+    }
+
+    .dropdown{
+         top:800px;
+        left:10px; 
+        font-size:10px;
+        margin-left:0px;
+    }
+    .lectie{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0px;
+    }
+    .video iframe{
+        width: 320px;
+        height:400px;
+    }
+    .video {
+        position: none; 
+        bottom: 0;
+        margin-left:0%;
+        margin-top:20%;
+        cursor: pointer;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+    .titlu h1 {
+        margin-top:10%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 401px) {
+    .box1 {
+        top:90%; 
+       width: 300px;
+        left: 50%;
+   }
+
+   .vezi-buton {
+       left: 490px; 
+       margin-top:10%;
+       margin-left:75%;
+       margin-bottom:10%;
+   }
+
+   .dropdown{
+        top:800px;
+       left:10px; 
+       font-size:10px;
+       margin-left:0px;
+   }
+   .lectie{
+       flex-direction: column;
+       align-items: flex-start;
+       margin-bottom: 0px;
+   }
+   .video iframe{
+       width: 420px;
+       height:400px;
+   }
+   .video {
+       position: none; 
+       bottom: 0;
+       margin-left:8%;
+       margin-top:20%;
+       cursor: pointer;
+       margin-bottom: 0px;
+       padding: 0;
+   }
+   .titlu h1 {
+       margin-top:20%;
+       font-size: 20px;
+   }
+}
+
+@media (max-width: 800px) and (min-width:601px) {
+    
+    .box1 {
+        top:90%; 
+       width: 700px;
+        left: 50%;
+   }
+
+   .vezi-buton {
+       left: 490px; 
+       margin-top:10%;
+       margin-left:270px;
+       margin-bottom:10%;
+   }
+
+   .dropdown{
+        top:800px;
+       left:10px; 
+       font-size:20px;
+       margin-left:0px;
+   }
+   .lectie{
+       flex-direction: column;
+       align-items: flex-start;
+       margin-bottom: 0px;
+   }
+   .video iframe{
+       width: 640px;
+       height:400px;
+       margin:0px;
+   }
+   .video {
+       position: none; 
+       bottom: 0;
+       margin-left:8%;
+       margin-top:20%;
+       cursor: pointer;
+       margin-bottom: 0px;
+       padding: 0;
+   }
+   .titlu h1 {
+       margin-top:20%;
+       font-size: 20px;
+   }
+}
+@media (max-width: 1025px) and (min-width:900px) {
+    
+    .box1 {
+        top:90%; 
+       width: 700px;
+        left: 50%;
+   }
+
+   .vezi-buton {
+       left: 490px; 
+       margin-top:10%;
+       margin-left:0px;
+       margin-bottom:10%;
+   }
+
+   .dropdown{
+        top:800px;
+        left:0px;
+       font-size:20px;
+       margin-left:0px;
+   }
+   .lectie{
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 0px;
+   }
+   .video iframe{
+       width: 640px;
+       height:400px;
+       margin:0px;
+   }
+   .video {
+       position: none; 
+       bottom: 0;
+       margin-left:0%;
+       margin-top:20%;
+       cursor: pointer;
+       margin-bottom: 0px;
+       padding: 0;
+   }
+   .titlu h1 {
+       margin-top:1%;
+       font-size: 20px;
+   }
+}
