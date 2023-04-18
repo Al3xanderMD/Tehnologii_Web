@@ -50,7 +50,14 @@ html{
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-
+.btn1{
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:12px 34px;
+  background-color: #F6F6F6;
+  cursor:auto;
+}
 .btn {
   display:inline-block;
   text-decoration: none;
