@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing:border-box;
 }
+html{
+    background-color:#F6F6F6;
+}
 .container{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 .content{
-    flex:1;
-    
+    flex:1; 
 }
 .header1
 {
@@ -68,6 +70,7 @@
     align-items: center;
     background-color:#FFD700;
     height: 100%;
+    overflow: hidden;
 }
 .meniu-links ul li {
     list-style: none;
@@ -92,6 +95,36 @@
 .meniu-links ul li:hover::after, .footer-links  ul li:hover::after{
     width: 100%;
 }
+.meniu-links > .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+.meniu-links  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#FFD700;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.meniu-links  .dropdown .fa{
+    font-size:15px;
+}
+.meniu-links  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .meniu-links  .dropdown-content a:hover {
+    background-color: #3A98B9;
+  }
+
+  .meniu-links  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 .footer{
     width: 100%;
     text-align: center;
@@ -140,6 +173,45 @@
     position: relative;
     display: flex;
 }
+.star-rating {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    margin-top:6px;
+    margin-left:20px;
+  }
+.star-rating input {
+    display: none;
+ }
+ .star-rating > label {
+    width: 30px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 30px;
+    transition: 0.2s ease;
+    color: orange;
+  }
+  .star-rating label::before {
+    content: '\2606';
+    position: absolute;
+    top: 0px;
+    line-height: 26px;
+  }
+  .star-rating label:hover {
+    content: "\2605";
+    color: #f5c518;
+  }
+  .star-rating label:active::before {
+    transform:scale(1.1);
+  }
+
+  .star-rating input:checked ~ label:before {
+    content:'\2605';
+  }
+
 .icons .fa, .fa-brands{
     color:black;
     margin:0 13px;
@@ -152,24 +224,6 @@
     cursor:pointer;
     padding: 18px 10px;
 }
-.stars {
-    font-size: 15px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    padding-left: 20px;
-    padding-top: 12px;
-}
-.fa-regular i{
-    display: inline-block;
-}
-.fa-regular:hover::before{
-    content: "\2605";
-    color: #f5c518;
-}
-
-
 @media screen and (max-width: 1024px)
 {
     .meniu-links ul li a{
@@ -189,22 +243,12 @@
     .feedback .title{
         padding-left: 22%;
     }
-    .feedback .stars{
-        padding-left: 10%;
-    }
-    .adress iframe{
-        width: 100%;
-        height: 350px;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 3%;
-    }
 }
 @media screen and (max-width: 500px) {
-    .header1-links ul li a{
+    .header-links ul li a{
         font-size: 13px;
     }
-    .header1 nav img{
+    .header nav img{
         width:200px;
         height: 150px;
     }
@@ -213,6 +257,9 @@
     }
     .meniu-links ul li {
         padding: 8px 10px;
+    }
+    .dropdown .fa{
+        font-size:10px;
     }
     .footer{
         margin-top:4%;
@@ -228,16 +275,6 @@
     .feedback .title{
         padding-left: 10%;
     }
-    .feedback .stars{
-        padding-left: 10%;
-    }
-    .adress iframe{
-        width: 100%;
-        height: 300px;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 3%;
-    }
 }
 @media screen and (max-width: 400px) {
     .text {
@@ -245,16 +282,28 @@
         top:69px;
         
       }
-    .header1-links ul li a{
+    .header-links ul li a{
         font-size: 13px;
     }
-    .header1 nav img{
+    .header nav img{
         width:200px;
         height: 150px;
     }
     .meniu-links ul li {
         padding: 8px 5px;
     }
+    .dropdown .fa{
+        font-size:10px;
+    }
+    .row .fa-solid {
+        font-size: 20px;
+      }
+      .row a {
+        height: 100px;
+      }
+      .row h1 {
+        font-size:10px;
+      }
     .footer-links ul li {
         padding: 8px 20px;
     }
@@ -269,18 +318,9 @@
     }
     .feedback .title{
         margin:auto;
-        padding-left:7%;
         
     }
-    .feedback .stars{
+    .feedback .star-rating{
         margin:auto;
-        padding-left: 38%;
-    }
-    .adress iframe{
-        width: 100%;
-        height: 300px;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 3%;
     }
 }
