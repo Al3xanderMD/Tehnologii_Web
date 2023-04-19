@@ -11,7 +11,7 @@
 <body>
   <div class="header1">
     <nav>
-      <a href="index2.html"><img src="../images/logo2.png" alt="Logo"></a>
+      <a href="../home/index.html"><img src="../images/logo2.png" alt="Logo"></a>
       <div class="header1-links">
         <ul>
           <li><a href="../login+register/register.html">Inregistrare</a></li>
@@ -22,16 +22,25 @@
   </div>
   <div class="meniu">
     <nav>
-      <div class="meniu-links">
-        <ul>
-          <li><a href="../legislatie/index.html">Legislatie</a></li>
-          <li><a href="../indicatoare/indicatoare-index/index.html">Indicatoare</a></li>
-          <li><a href="">Categorii permis</a></li>
-          <li><a href="">Chestionare</a></li>
-        </ul>
-      </div>
+        <div class="meniu-links">
+            <ul>
+                <li><a href="../legislatie/index.html">Legislatie</a></li>
+                <li><a href="../indicatoare/indicatoare-index/index.html">Indicatoare</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="">Categorii</a>
+                        <i class="fa fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="../categorii/categoriaA.html">Categoria A</a>
+                            <a href="../categorii/categoriaB.html">Categoria B</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">Chestionare</a></li>
+            </ul>
+        </div>
     </nav>
-  </div>
+</div>
   <section class="header">
     <script type="text/javascript">
       function handleSelect(elm) {
@@ -289,16 +298,25 @@
     </div>
     <div class="feedback">
       <div class="title">
-        <h1>Parerea ta conteaza </h1>
+      <h1>Parerea ta conteaza </h1>
       </div>
-      <div class="stars">
-        <i class="fa-regular fa-star one-star"></i>
-        <i class="fa-regular fa-star two-stars"></i>
-        <i class="fa-regular fa-star three-stars"></i>
-        <i class="fa-regular fa-star four-stars"></i>
-        <i class="fa-regular fa-star five-stars"></i>
-      </div>
+      <div class="star-rating">
+          <input type="radio" name="stars" id="star-a" value="5"/>
+           <label for="star-a"></label>
+
+          <input type="radio" name="stars" id="star-b" value="4"/>
+          <label for="star-b"></label>
+
+          <input type="radio" name="stars" id="star-c" value="3"/>
+          <label for="star-c"></label>
+
+          <input type="radio" name="stars" id="star-d" value="2"/>
+          <label for="star-d"></label>
+
+          <input type="radio" name="stars" id="star-e" value="1"/>
+          <label for="star-e"></label>
     </div>
+  </div>
     <div class="icons">
       <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
       <i class="fa fa-instagram"></i>
