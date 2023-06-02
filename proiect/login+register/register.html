@@ -1,119 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="../indicatoare/style3.css">
-  </head>
-  <body>
-    <div class="header1">
-      <nav>
-          <a href="../home/index.html"><img src="../images/logo2.png" alt="Logo"></a>
-          <div class="header1-links">
-              <ul>
-                <li><a href="register.html">Inregistrare</a></li>
-                <li><a href="login.html">Autentificare</a></li>
-              </ul>
-          </div>
-      </nav>
+<form action="process-register.php" method="post">
+  <link rel="stylesheet" href="LogIn_Reg.css">
+  <div class="container">
+    <h1 class="element">&#xCEnregistrare</h1>
+    <p class="element">V&#259 rug&#259m s&#259 completa&#355i acest formular pentru a v&#259 crea un cont.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Introduce&#355i adresa de email" name="email" id="email" required>
+
+    <label for="phone"><b>Num&#x103r de telefon</b></label>
+    <input type="text" placeholder="Introduce&#355i num&#x103rul de telefon" name="phone" id="phone" required>
+
+    <label for="username"><b>Nume de utilizator</b></label>
+    <input type="text" placeholder="Introduce&#355i numele de utilizator" name="username" id="username" required>
+
+    <label for="password"><b>Parola</b></label>
+    <input type="password" placeholder="Introduce&#355i parola" name="password" id="password" required>
+
+    <label for="password_repeat"><b>Repeta&#355i parola</b></label>
+    <input type="password" placeholder="Repeta&#355i parola" name="password_repeat" id="password_repeat" required>
+    <hr>
+
+    <button type="submit" class="register_log_btn">&#xCEnregistrare</button>
   </div>
-  <div class="meniu">
-    <nav>
-        <div class="meniu-links">
-            <ul>
-                <li><a href="../legislatie/index.html">Legislatie</a></li>
-                <li><a href="../indicatoare/indicatoare-index/index.html">Indicatoare</a></li>
-                <li>
-                    <div class="dropdown">
-                        <a href="">Categorii</a>
-                        <i class="fa fa-caret-down"></i>
-                        <div class="dropdown-content">
-                            <a href="../categorii/categoriaA.html">Categoria A</a>
-                            <a href="../categorii/categoriaB.html">Categoria B</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="">Chestionare</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-  <form>
-    <link rel="stylesheet" href="LogIn_Reg.css">
-    <div class="container">
-      <h1 class="element">&#xCEnregistrare</h1>
-      <p class="element">V&#259 rug&#259m s&#259 completa&#355i acest formular pentru a v&#259 crea un cont.</p>
-      <hr>
-  
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Introduce&#355i adresa de email" name="email" id="email" required>
-  
-      <label for="phone"><b>Num&#x103r de telefon</b></label>
-      <input type="text" placeholder="Introduce&#355i num&#x103rul de telefon" name="phone" id="phone">
-  
-      <label for="username"><b>Nume de utilizator</b></label>
-      <input type="text" placeholder="Introduce&#355i numele de utilizator" name="username" id="username" required>
-  
-      <label for="psw"><b>Parola</b></label>
-      <input type="password" placeholder="Introduce&#355i parola" name="psw" id="psw" required>
-  
-      <label for="psw-repeat"><b>Repeta&#355i parola</b></label>
-      <input type="password" placeholder="Repeta&#355i parola" name="psw-repeat" id="psw-repeat" required>
-      <hr>
-  
-      <button type="submit" class="register_log_btn">&#xCEnregistrare</button>
-    </div>
-  
-    <div class="signin">
-      <p>Ai deja un cont? <a href="login.html">Sign in</a>.</p>
-    </div>
-  </form>
-  <div class="footer">
-    <div class="footer-details">
-    <h4>Despre noi</h4>
-    <p>RoT (Romanian Traffic Signs Tutor) este o aplicatie web utila pentru cei ce vor sa invete eficient pentru examenul auto.<br>Aici gasesti tot ce ai nevoie pentru a te pregati
-        si pentru a lua examenul din prima.
-    </p>
-    </div>
-    <div class="footer-links">
-        <ul>
-            <li><a href="../termeni/termeni.html">Termeni</a></li>
-            <li><a href="">Link-uri utile</a></li>
-            <li><a href="../contact/contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div class="useful-links">
-        <ul>
-            <li><a href="../intrebariFrecvente/intrebariFrecvente.html">Intrebari frecvente</a></li>
-            <li><a href="../topScoliAuto/topScoliAuto.html">Top scoli auto</a></li>
-            <li><a href="../home/index.html">Acasa</a></li>
-        </ul>
-    </div>
-    <div class="feedback">
-      <div class="title">
-      <h1>Parerea ta conteaza </h1>
-      </div>
-      <div class="star-rating">
-          <input type="radio" name="stars" id="star-a" value="5"/>
-           <label for="star-a"></label>
 
-          <input type="radio" name="stars" id="star-b" value="4"/>
-          <label for="star-b"></label>
-
-          <input type="radio" name="stars" id="star-c" value="3"/>
-          <label for="star-c"></label>
-
-          <input type="radio" name="stars" id="star-d" value="2"/>
-          <label for="star-d"></label>
-
-          <input type="radio" name="stars" id="star-e" value="1"/>
-          <label for="star-e"></label>
-    </div>
+  <div class="container signin">
+    <p>Ai deja un cont? <a href="login.php">Sign in</a>.</p>
   </div>
-    <div class="icons">
-        <a href="" target="_blank"><i class="fa fa-facebook" ></i></a>
-        <i class="fa fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-    </div>
-</div>
-  </body>
+</form>
 </html>
 
