@@ -33,21 +33,21 @@ input[type='number']{
     border: 1px #ccc solid;
 }
 
-.container{
+.container3{
+
     width: 60%;
-    margin:0 auto;
+    margin-left:200px;
+    /*margin-top:60px;*/
+    /*margin:0 auto;*/
     overflow: auto;
 }
 
-header{
+.header3{
     border-bottom:3px #f4f4f4 solid;
+    margin-left:200px;
+    margin-bottom: 60px;
 }
 
-footer{
-    border-top:3px #f4f4f4 solid;
-    text-align: center;
-    padding-top:5px ;
-}
 
 main{
     padding-bottom:20px;
