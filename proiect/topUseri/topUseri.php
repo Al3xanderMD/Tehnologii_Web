@@ -1,40 +1,35 @@
+
 <?php global $mysqli;
-include 'database.php';?>
+include '../chestionare/database.php';?>
 <?php session_start(); ?>
 <?php
-$number = (int) $_GET['n'];
 
-$query = "SELECT * FROM `questions`";
+
+$query = "SELECT * FROM `user` order by teste_trecute DESC";
 $results = $mysqli->query($query) or die($mysqli->error.__LINE__);
 $total = $results->num_rows;
 
-$query = "SELECT * FROM `questions` WHERE question_number =$number";
-$results = $mysqli->query($query) or die($mysqli->error.__LINE__);
-$question = $results->fetch_assoc();
 
-$query="SELECT * FROM `choices`  WHERE question_number= $number";
-$choices= $mysqli->query($query) or die ($mysqli->error.__LINE__);
 
 ?>
-
-
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Chestionare</title>
-    <link rel="stylesheet" href="style_quiz.css" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Utilizatori</title>
     <link rel="stylesheet" href="../home/index.css">
     <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="header">
     <nav>
-        <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
+        <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
         <div class="header-links">
             <ul>
                 <li><a href="../login+register/register.html">Inregistrare</a></li>
-                <li><a href="../login+register/login.php">Autentificare</a></li>
+                <li><a href="../login+register/login.html">Autentificare</a></li>
             </ul>
         </div>
     </nav>
@@ -60,45 +55,44 @@ $choices= $mysqli->query($query) or die ($mysqli->error.__LINE__);
         </div>
     </nav>
 </div>
-    <div class="header3">
-        <h1>Chestionare</h1>
-    </div>
-<main>
-    <div class = "container3">
-        <div class="current">Intrebare <?php if($question['question_number']%5==0) echo "5" ; else echo  $question['question_number']%5; ?> din <?php echo "5"  ?></div>
-        <p class ="question">
-         <?php echo $question['text'];  ?>
-        </p>
-        <form method="post" action="process.php">
-              <ul class="choices">
-                  <?php while($row=$choices->fetch_assoc()):?>
-                      <li><input name = "choices[]" type="checkbox" value="<?php echo $row['id']; ?>" /> <?php echo $row['text']; ?></li>
-                  <?php endwhile; ?>
-              </ul>
-        <input type="submit" value="Submit"/>
-        <input type="hidden" name ="number" value ="<?php echo $number; ?>"/>
-        </form>
-    </div>
-</main>
+<div class="titlu-topScoliAuto">
+    <h1>TOP utilizatori</h1>
+    <h3>In functie de rata de promovabilitate la chestionare </h3>
+</div>
+<h1 class="judet">TOP</h1>
+<table>
+    <tr>
+        <th>Utilizator</th>
+        <th>Chestionare trecute</th>
+        <th>Chestionare picate</th>
+    </tr>
+        <?php while($row=$results->fetch_assoc()):?>
+        <tr>
+            <td><?php echo $row['username']; ?> </td>
+            <td><?php echo $row['teste_trecute']; ?></td>
+            <td><?php echo $row['teste_picate']; ?></td>
+        </tr>
+        <?php endwhile; ?>
+
+</table>
+
 <footer class="footer">
-    <div class="footer-details">
-        <h4>Despre noi</h4>
-        <p>RoT (Romanian Traffic Signs Tutor) este o aplicatie web utila pentru cei ce vor sa invete eficient pentru examenul auto.<br>Aici gasesti tot ce ai nevoie pentru a te pregati
-            si pentru a lua examenul din prima.
-        </p>
-    </div>
+    <h4>Despre noi</h4>
+    <p>RoT (Romanian Traffic Signs Tutor) este o aplicatie web utila pentru cei ce vor sa invete eficient pentru examenul auto.<br>Aici gasesti tot ce ai nevoie pentru a te pregati
+        si pentru a lua examenul din prima.
+    </p>
     <div class="footer-links">
         <ul>
             <li><a href="../termeni/termeni.html">Termeni</a></li>
-            <li><a href="">Link-uri utile</a></li>
+            <li>Link-uri utile</li>
             <li><a href="../contact/contact.html">Contact</a></li>
         </ul>
     </div>
     <div class="useful-links">
         <ul>
             <li><a href="../intrebariFrecvente/intrebariFrecvente.html">Intrebari frecvente</a></li>
-            <li><a href="../topScoliAuto/topScoliAuto.html">Top scoli auto</a></li>
-            <li><a href="../home/index.html">Acasa</a></li>
+            <li><a href="topScoliAuto.html">Top scoli auto</a></li>
+            <li><a href="../home/index.php">Acasa</a></li>
         </ul>
     </div>
     <div class="feedback">

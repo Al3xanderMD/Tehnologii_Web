@@ -50,7 +50,7 @@ else $conectat=1;
                             </div>
                         </div>
                     </li>
-                    <li><a href="">Chestionare</a></li>
+                    <li><a href="../chestionare/index.php">Chestionare</a></li>
                 </ul>
             </div>
         </nav>
