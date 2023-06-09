@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             $_SESSION["user_id"] = $user["id"];
 
-            header("Location: ../home/index.html");
+            header("Location: ../home/index.php");
             exit;
         }
     }
@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <input type="password" placeholder="Introduce&#355i parola" name="password" id="password">
      <hr>
 
-      <button type="submit" class="register_log_btn">Autontificare</button>
+      <button type="submit" class="register_log_btn">Autentificare</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>

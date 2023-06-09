@@ -1,3 +1,11 @@
+
+<?php
+session_start();
+if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
+ $conectat=0;
+}
+else $conectat=1;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +22,14 @@
             <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
             <div class="header-links">
                 <ul>
-                    <li><a href="../login+register/register.html">Inregistrare</a></li>
-                    <li><a href="../login+register/login.php">Autentificare</a></li>
+                    <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                    <li>
+                        <?php if ($conectat == 0): ?>
+                            <a href="../login+register/login.php">Conectare</a>
+                        <?php else: ?>
+                            <a href="../login+register/logout.php">Deconectare</a>
+                        <?php endif; ?>
+                    </li>
                 </ul>
             </div>
         </nav>
