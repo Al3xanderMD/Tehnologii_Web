@@ -58,7 +58,7 @@ if ($_POST) {
     }
 
     // Check if last question
-    if ($number == 5) {
+    if ($number%5 == 0) {
         header("Location: final.php");
         exit();
     } else {

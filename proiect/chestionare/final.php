@@ -46,10 +46,10 @@
     </div>
 <main>
     <div class = "container3">
-       <h2>You're done!</h2>
-        <p><?php if($_SESSION['score']>=3) echo "You passed"; else echo "You failed" ?></p>
-        <p>Final Score: <?php echo $_SESSION['score'];  session_destroy();?> </p>
-        <a href="index_quiz.php" class ="start">Take again</a>
+       <h2>Ai terminat!</h2>
+        <p><?php if($_SESSION['score']>=3) echo "Ai trecut!"; else echo "Ai picat!" ?></p>
+        <p>Scor final: <?php echo $_SESSION['score'];  session_destroy();?> </p>
+        <a href="index_quiz.php" class ="start">Rezolva din nou</a>
     </div>
 </main>
     <footer class="footer">

@@ -65,7 +65,7 @@ $choices= $mysqli->query($query) or die ($mysqli->error.__LINE__);
     </div>
 <main>
     <div class = "container3">
-        <div class="current">Intrebare <?php echo  $question['question_number']; ?> din <?php echo "5"  ?></div>
+        <div class="current">Intrebare <?php if($question['question_number']%5==0) echo $question['question_number'] ; else echo  $question['question_number']%5; ?> din <?php echo "5"  ?></div>
         <p class ="question">
          <?php echo $question['text'];  ?>
         </p>
