@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
+    $conectat=0;
+}
+else $conectat=1;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,62 +15,71 @@
         <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="header1">
-            <nav>
-                <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
-                <div class="header1-links">
-                    <ul>
-                        <li><a href="../login+register/register.html">Inregistrare</a></li>
-                        <li><a href="../login+register/login.html">Autentificare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="meniu">
-            <nav>
-                <div class="meniu-links">
-                    <ul>
-                        <li><a href="../legislatie/index.php">Legislatie</a></li>
-                        <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
-                        <li>
-                            <div class="dropdown">
-                                <a href="">Categorii</a>
-                                <i class="fa fa-caret-down"></i>
-                                <div class="dropdown-content">
-                                    <a href="../categorii/categoriaA.php">Categoria A</a>
-                                    <a href="../categorii/categoriaB.php">Categoria B</a>
-                                </div>
+    <div class="header1">
+        <nav>
+            <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
+            <div class="header1-links">
+                <ul>
+                    <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                    <li>
+                        <?php if ($conectat == 0): ?>
+                        <a href="../login+register/login.php">Conectare</a>
+                        <?php else: ?>
+                        <a href="../login+register/logout.php">Deconectare</a>
+                        <?php endif; ?>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="meniu">
+        <nav>
+            <div class="meniu-links">
+                <ul>
+                    <li><a href="../legislatie/index.php">Legislatie</a></li>
+                    <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="">Categorii</a>
+                            <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content">
+                                <a href="../categorii/categoriaA.php">Categoria A</a>
+                                <a href="../categorii/categoriaB.php">Categoria B</a>
                             </div>
-                        </li>
-                        <li><a href="">Chestionare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                        </div>
+                    </li>
+                    <li><a href="../chestionare/index.php">Chestionare</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
         <div class="container1">
                <div class="panel">
               <div class="panel-heading text-centre">
-              <strong>Accesul interzis în ambele sensuri </strong>
+              <strong>Sfârșitul drumului cu prioritate </strong>
               </div>
              <div class="panel-body">
               <div class="row1"> 
                 <div class="column" style="max-width: 10%;"></div>
                   <div class="column">
-                      <img src="../indicatoare/indicatoare-index/19.jpg" alt="" style="width:90%;">
+                      <img src="../indicatoare/indicatoare-index/20.jpg" alt="" style="width:90%;">
                   </div>
                   <div class="text">
                 <p> 
-                    Se amplasează la intrarea pe drumurile pe care este interzisă circulația vehiculelor în ambele sensuri (drum care nu este deschis circulației publice), parcuri, zone rezidențiale sau de interes special, centrele unor orașe mari, etc.
+                    Se amplasează la 50 - 200 de metri de locul unde încetează prioritatea indicatorului ''Drum cu prioritate'', având rolul de a informa conducătorul auto că în următoarea intersecție în care va pătrunde, toate drumurile vor fi de aceeași categorie.
                 </p>
                 <p>
-                    Poate fi însoțit de un panou adițional pe care sunt precizate categoriile de autovehicule cărora nu li se adresează restricția, sau de un panou adițional cu inscripția (textul) ''Cu excepția riveranilor''.
+                    La întâlnirea sa, conducătorii de vehicule pot circula, chiar dacă prioritatea lor a încetat, conformându-se priorității de dreapta sau altor reguli existente pe acel drum.  
+                </p>
+                <p>
+                    Are și rol de presemnalizare pentru indicatoarele''Cedează trecerea'' și ''Oprire'', instalate la intersecția care urmează. Poate fi însoțit de panoul adițional ''Distanța de la indicator la începutul locului periculos''.
                 </p>
                   </div>
               </div>
               <div class="row1">
                 <div class="column"></div>
                 <div class="column" style="max-width: 100%;">
-                <img src="../indicatoare/indicatoare de interzicere/circulatie-interzisa.png" alt="" style="width:70%; vertical-align: middle;">
+                <img src="../indicatoare/indicatoare de prioritate/sfarsit-prioritate.png" alt="" style="width:70%; vertical-align: middle;">
               </div>
               <div>
               </div>
@@ -72,10 +88,10 @@
               <div class="panel-footer">
                 <div class="row1">
                     <div class="column" style="max-width: 50%;">
-                        <a href="2_1.html" class="btn" style="float: left;">Previous</a>
+                        <a href="1_3.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="2_3.html" class="btn" style="float: right;">Urmator</a>
+                        <a href="1_5.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>
@@ -99,6 +115,7 @@
                 <ul>
                     <li><a href="../intrebariFrecvente/intrebariFrecvente.php">Intrebari frecvente</a></li>
                     <li><a href="../topScoliAuto/topScoliAuto.php">Top scoli auto</a></li>
+                    <li><a href="../topUseri/topUseri.php">Top utilizatori</a></li>
                     <li><a href="../home/index.php">Acasa</a></li>
                 </ul>
             </div>

@@ -62,98 +62,98 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/2_1.html"><img src="acces.png" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_1.php"><img src="acces.png" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_2.html"><img src="circulatie-interzisa.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_2.php"><img src="circulatie-interzisa.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Circulația interzisă în ambele sensuri</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_3.html"><img src="acces-interzis.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_3.php"><img src="acces-interzis.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Accesul interzis autovehiculelor cu excepția motocicletelor fără ataș</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_4.html"><img src="motor.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_4.php"><img src="motor.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis motocicletelor</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_5.html"><img src="bicicleta.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_5.php"><img src="bicicleta.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Accesul interzis bicicletelor</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_6.html"><img src="mopede.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_6.php"><img src="mopede.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis mopedelor (ciclometrelor)</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_7.html"><img src="marfa.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_7.php"><img src="marfa.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis vehiculelor destinate transportului de mărfuri</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_8.html"><img src="osie.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_8.php"><img src="osie.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_8.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis autovehiculelor cu remorcă, cu excepția celor cu semiremorcă sau cu remorcă cu o osie</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_9.html"><img src="autobuz.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_9.php"><img src="autobuz.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis autobuzelor</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_10.html"><img src="pieton.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_10.php"><img src="pieton.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis pietonilor</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_11.html"><img src="tractiune.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_11.php"><img src="tractiune.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis vehiculelor cu tracțiune animală</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_12.html"><img src="impinse.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_12.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_12.php"><img src="impinse.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_12.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis vehiculelor împinse sau trase cu mâna</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_13.html"><img src="tractoare.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_13.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_13.php"><img src="tractoare.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_13.php" class="vezi-buton2">vezi detalii</a>
                 <p>Accesul interzis tractoarelor și mașinilor autopropulsate pentru lucrări</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_14.html"><img src="autoveh.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_14.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_14.php"><img src="autoveh.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_14.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis autovehiculelor</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_15.html"><img src="autoveh+animala.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_15.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_15.php"><img src="autoveh+animala.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_15.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis autovehiculelor și vehiculelor cu tracțiune animală</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_16.html"><img src="2.30.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_16.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_16.php"><img src="2.30.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_16.php" class="vezi-buton2">vezi detalii</a>
                 <p>Accesul interzis vehiculelor cu lățimea mai mare de ... m</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_17.html"><img src="3.50.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_17.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_17.php"><img src="3.50.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_17.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis vehiculelor cu înălțimea mai mare de .. m</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_18.html"><img src="7.0.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_18.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_18.php"><img src="7.0.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_18.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis vehiculelor cu masă mai mare de .. t</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/2_19.html"><img src="masa.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/2_19.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/2_19.php"><img src="masa.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/2_19.php" class="vezi-buton2">vezi detalii</a>
                 <p> Accesul interzis vehiculelor cu masă mai mare de ... t pe osia simplă</p>
             </div>
             <div class="box2">

@@ -62,33 +62,33 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/1_1.html"><img src="cedeaza.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/1_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/1_1.php"><img src="cedeaza.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/1_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Cedeaza trecerea</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/1_2.html"><img src="stop.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/1_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/1_2.php"><img src="stop.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/1_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/1_3.html"><img src="prioritate.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/1_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/1_3.php"><img src="prioritate.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/1_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Drum cu prioritate</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/1_4.html"><img src="sfarsit-prioritate.png" alt style="width:100%;"></a>
-                <a href="../../indicatoare individuale/1_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/1_4.php"><img src="sfarsit-prioritate.png" alt style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/1_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Sfarsitul drumului cu prioritate</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/1_5.html"><img src="prioritate-fata.jpg" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/1_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/1_5.php"><img src="prioritate-fata.jpg" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/1_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Prioritate față de circulația din sens invers</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/1_6.html"><img src="prioritate-pentru.jpg" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/1_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/1_6.php"><img src="prioritate-pentru.jpg" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/1_6.php" class="vezi-buton2">vezi detalii</a>
                 <p>Prioritate pentru circulația din sens invers</p>
             </div>
         </div>
