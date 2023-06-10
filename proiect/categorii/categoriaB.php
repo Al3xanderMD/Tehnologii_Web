@@ -38,7 +38,7 @@ else $conectat=1;
     <nav>
         <div class="meniu-links">
             <ul>
-                <li><a href="../legislatie/index.html">Legislatie</a></li>
+                <li><a href="../legislatie/index.php">Legislatie</a></li>
                 <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
                 <li>
                     <div class="dropdown">
@@ -68,7 +68,7 @@ else $conectat=1;
         <li>varsta minima 16 ani impliniti</li>
         </ul>
         <div>
-            <a href="../legislatie/index.html" class="intra-si-invata-buton">Intra si invata</a>
+            <a href="../legislatie/index.php" class="intra-si-invata-buton">Intra si invata</a>
         </div>
     </div>
     <footer class="footer">

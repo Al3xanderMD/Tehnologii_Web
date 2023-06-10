@@ -43,7 +43,7 @@ $choices= $mysqli->query($query) or die ($mysqli->error.__LINE__);
     <nav>
         <div class="meniu-links">
             <ul>
-                <li><a href="../legislatie/index.html">Legislatie</a></li>
+                <li><a href="../legislatie/index.php">Legislatie</a></li>
                 <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
                 <li>
                     <div class="dropdown">
