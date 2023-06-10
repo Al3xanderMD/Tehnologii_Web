@@ -292,38 +292,38 @@ else $conectat=1;
                 <p>Ieșire din localitate</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_47.html"><img src="orientare47.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_47.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_47.php"><img src="orientare47.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_47.php" class="vezi-buton2">vezi detalii</a>
                 <p>Ieșire din localitate</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_48.html"><img src="orientare48.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_48.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_48.php"><img src="orientare48.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_48.php" class="vezi-buton2">vezi detalii</a>
                 <p>Limita de județ</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_49.html"><img src="orientare49.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_49.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_49.php"><img src="orientare49.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_49.php" class="vezi-buton2">vezi detalii</a>
                 <p>Curs de apă sau viaduct</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_50.html"><img src="orientare50.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_50.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_50.php"><img src="orientare50.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_50.php" class="vezi-buton2">vezi detalii</a>
                 <p>Confirmarea direcției de mers spre o localitate și distanța până la aceasta</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_51.html"><img src="orientare51.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_51.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_51.php"><img src="orientare51.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_51.php" class="vezi-buton2">vezi detalii</a>
                 <p>Confirmarea direcției de mers spre localități mai importante și distanțele până la acestea</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_52.html"><img src="orientare52.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_52.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_52.php"><img src="orientare52.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_52.php" class="vezi-buton2">vezi detalii</a>
                 <p>Organizarea traficului pe benzi de circulație</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_53.html"><img src="orientare53.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_53.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_53.php"><img src="orientare53.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_53.php" class="vezi-buton2">vezi detalii</a>
                 <p>Telefon de urgență (Poliție, Ambulanță, Pompieri, Depanare)</p>
             </div>
         </div>

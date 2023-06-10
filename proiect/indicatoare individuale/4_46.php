@@ -83,7 +83,7 @@ else $conectat=1;
                         <a href="4_45.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="4_47.html" class="btn" style="float: right;">Urmator</a>
+                        <a href="4_47.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>
