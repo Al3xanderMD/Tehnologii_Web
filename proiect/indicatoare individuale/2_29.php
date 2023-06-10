@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
+ $conectat=0;
+}
+else $conectat=1;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,42 +15,48 @@
         <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="header1">
-            <nav>
-                <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
-                <div class="header1-links">
-                    <ul>
-                        <li><a href="../login+register/register.html">Inregistrare</a></li>
-                        <li><a href="../login+register/login.html">Autentificare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="meniu">
-            <nav>
-                <div class="meniu-links">
-                    <ul>
-                        <li><a href="../legislatie/index.php">Legislatie</a></li>
-                        <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
-                        <li>
-                            <div class="dropdown">
-                                <a href="">Categorii</a>
-                                <i class="fa fa-caret-down"></i>
-                                <div class="dropdown-content">
-                                    <a href="../categorii/categoriaA.php">Categoria A</a>
-                                    <a href="../categorii/categoriaB.php">Categoria B</a>
-                                </div>
+    <div class="header1">
+        <nav>
+            <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
+            <div class="header1-links">
+                <ul>
+                    <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                    <li>
+                        <?php if ($conectat == 0): ?>
+                        <a href="../login+register/login.php">Conectare</a>
+                        <?php else: ?>
+                        <a href="../login+register/logout.php">Deconectare</a>
+                        <?php endif; ?>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="meniu">
+        <nav>
+            <div class="meniu-links">
+                <ul>
+                    <li><a href="../legislatie/index.php">Legislatie</a></li>
+                    <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="">Categorii</a>
+                            <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content">
+                                <a href="../categorii/categoriaA.php">Categoria A</a>
+                                <a href="../categorii/categoriaB.php">Categoria B</a>
                             </div>
-                        </li>
-                        <li><a href="">Chestionare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                        </div>
+                    </li>
+                    <li><a href="../chestionare/index.php">Chestionare</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
         <div class="container1">
                <div class="panel">
               <div class="panel-heading text-centre">
-              <strong>Accesul interzis vehiculelor care transportă mărfuri periculoase</strong>
+              <strong>Limitare de viteză</strong>
               </div>
              <div class="panel-body">
               <div class="row1"> 
@@ -53,27 +66,30 @@
                   </div>
                   <div class="text">
                 <p> 
-                    Indicatorul interzice accesul vehiculelor care transportă mărfuri periculoase.
+                    Este montat pe sectorul de drum unde viteza de circulție a vehiculelor trebuie limitată. La întâlnirea acestui indicator, conducătorii vehiculelor vor circula cu viteza maximă de 40 de km/h.
                 </p>
                 <p>
-                    Se întâlnește de obicei în zonele intens populate sau în zonele unde prezența unor astfel de mărfuri ar constitui un pericol.
+                    Zona de acțiune începe din dreptul indicatorului și se termină la întâlnirea indicatorului "Sfârșitul limitării de viteză" sau "Sfârșitul tuturor restricțiilor".
+                </p>
+                <p>
+                    Dacă indicatorul este însoțit și de un panou cu numele localității, atunci limita de viteză este valabilă pentru întreaga localitate.
                 </p>
                   </div>
               </div>
               <div class="row1">
                 <div class="column"></div>
                 <div class="column" style="max-width: 100%;">
-                <img src="../indicatoare/indicatoare de interzicere/pericol.png" alt="" style="width:70%; vertical-align: middle;">
+                <img src="../indicatoare/indicatoare de interzicere/limitare.png" alt="" style="width:70%; vertical-align: middle;">
               </div>
            </div>
               </div>
               <div class="panel-footer">
                 <div class="row1">
                     <div class="column" style="max-width: 50%;">
-                        <a href="2_45.html" class="btn" style="float: left;">Previous</a>
+                        <a href="2_28.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="2_47.html" class="btn" style="float: right;">Urmator</a>
+                        <a href="2_30.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>
@@ -97,6 +113,7 @@
                 <ul>
                     <li><a href="../intrebariFrecvente/intrebariFrecvente.php">Intrebari frecvente</a></li>
                     <li><a href="../topScoliAuto/topScoliAuto.php">Top scoli auto</a></li>
+                    <li><a href="../topUseri/topUseri.php">Top utilizatori</a></li>
                     <li><a href="../home/index.php">Acasa</a></li>
                 </ul>
             </div>
