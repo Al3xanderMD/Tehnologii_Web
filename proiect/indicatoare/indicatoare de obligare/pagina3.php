@@ -77,78 +77,78 @@ else $conectat=1;
                 <p>La dreapta</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_4.html"><img src="inaintedr.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_4.php"><img src="inaintedr.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Înainte sau la dreapta</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_5.html"><img src="ocolire.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_5.php"><img src="ocolire.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Ocolire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_6.html"><img src="ocolire2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_6.php"><img src="ocolire2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Ocolire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_7.html"><img src="sens.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_7.php"><img src="sens.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Intersecție cu sens giratoriu</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_8.html"><img src="pista.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_8.php"><img src="pista.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_8.php" class="vezi-buton2">vezi detalii</a>
                 <p> Pistă pentru biciclete</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_9.html"><img src="categveh.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_9.php"><img src="categveh.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Drum obligatoriu pentru categoria de vehicule</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_10.html"><img src="drumpietoni.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_10.php"><img src="drumpietoni.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Drum pentru pietoni</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_11.html"><img src="delimitarepista.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_11.php"><img src="delimitarepista.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Delimitare piste pentru pietoni și biciclete</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_12.html"><img src="pistacom.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_12.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_12.php"><img src="pistacom.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_12.php" class="vezi-buton2">vezi detalii</a>
                 <p> Pistă comună pentru pietoni și bicicliști</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_13.html"><img src="min.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_13.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_13.php"><img src="min.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_13.php" class="vezi-buton2">vezi detalii</a>
                 <p> Viteză minimă obligatorie</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_14.html"><img src="sfmin.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_14.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_14.php"><img src="sfmin.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_14.php" class="vezi-buton2">vezi detalii</a>
                 <p>Sfârșitul vitezei minime obligatorii</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_15.html"><img src="lanturi.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_15.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_15.php"><img src="lanturi.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_15.php" class="vezi-buton2">vezi detalii</a>
                 <p> Lanțuri pentru zăpadă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_16.html"><img src="directiemarfa.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_16.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_16.php"><img src="directiemarfa.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_16.php" class="vezi-buton2">vezi detalii</a>
                 <p> Direcție obligatorie pentru vehiculele care transportă mărfuri periculoase</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_17.html"><img src="directiemarfa2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_17.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_17.php"><img src="directiemarfa2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_17.php" class="vezi-buton2">vezi detalii</a>
                 <p>Direcție obligatorie pentru vehicule care transportă mărfuri periculoase</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/3_18.html"><img src="directiemarfa3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/3_18.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/3_18.php"><img src="directiemarfa3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/3_18.php" class="vezi-buton2">vezi detalii</a>
                 <p> Direcție obligatorie pentru vehicule care transportă mărfuri periculoase</p>
             </div>
         </div>

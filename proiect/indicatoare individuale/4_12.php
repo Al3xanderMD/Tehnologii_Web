@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
+ $conectat=0;
+}
+else $conectat=1;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,42 +15,48 @@
         <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="header1">
-            <nav>
-                <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
-                <div class="header1-links">
-                    <ul>
-                        <li><a href="../login+register/register.html">Inregistrare</a></li>
-                        <li><a href="../login+register/login.html">Autentificare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="meniu">
-            <nav>
-                <div class="meniu-links">
-                    <ul>
-                        <li><a href="../legislatie/index.php">Legislatie</a></li>
-                        <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
-                        <li>
-                            <div class="dropdown">
-                                <a href="">Categorii</a>
-                                <i class="fa fa-caret-down"></i>
-                                <div class="dropdown-content">
-                                    <a href="../categorii/categoriaA.php">Categoria A</a>
-                                    <a href="../categorii/categoriaB.php">Categoria B</a>
-                                </div>
+    <div class="header1">
+        <nav>
+            <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
+            <div class="header1-links">
+                <ul>
+                    <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                    <li>
+                        <?php if ($conectat == 0): ?>
+                        <a href="../login+register/login.php">Conectare</a>
+                        <?php else: ?>
+                        <a href="../login+register/logout.php">Deconectare</a>
+                        <?php endif; ?>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="meniu">
+        <nav>
+            <div class="meniu-links">
+                <ul>
+                    <li><a href="../legislatie/index.php">Legislatie</a></li>
+                    <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="">Categorii</a>
+                            <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content">
+                                <a href="../categorii/categoriaA.php">Categoria A</a>
+                                <a href="../categorii/categoriaB.php">Categoria B</a>
                             </div>
-                        </li>
-                        <li><a href="">Chestionare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                        </div>
+                    </li>
+                    <li><a href="../chestionare/index.php">Chestionare</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
         <div class="container1">
                <div class="panel">
               <div class="panel-heading text-centre">
-              <strong>Presemnalizarea pe autostradă pentru spații de servicii</strong>
+              <strong>Bandă rezervată circulației mijloacelor de transport public de persoane</strong>
               </div>
              <div class="panel-body">
               <div class="row1"> 
@@ -53,24 +66,30 @@
                   </div>
                   <div class="text">
                 <p> 
-                    Acest indicator rutier se întâlnește pe autostrăzi și îi informează pe conducătorii auto că la 250 metri de locul unde este instalat, vor întâlni un spațiu de servicii.
+                    Indicatorul din imaginea alăturată se amplasează în orașe, pe drumurile cu mai multe benzi, pentru a informa conducătorul auto că una dintre benzi este rezervată circulației autovehiculelor de transport public de persoane.
+                </p>
+                <p>
+                    Celelalte categorii de autovehicule, vor fi obligate să circule pe banda numărul 2.
+                </p>
+                <p>
+                    Zona de acțiune a indicatorului se termină la prima intersecție.
                 </p>
                   </div>
               </div>
               <div class="row1">
                 <div class="column"></div>
                 <div class="column" style="max-width: 100%;">
-                <img src="../indicatoare/indicatoare de orientare/orientare9.png" alt="" style="width:70%; vertical-align: middle;">
+                <img src="../indicatoare/indicatoare de orientare/orientare12.png" alt="" style="width:70%; vertical-align: middle;">
               </div>
            </div>
               </div>
               <div class="panel-footer">
                 <div class="row1">
                     <div class="column" style="max-width: 50%;">
-                        <a href="4_8.html" class="btn" style="float: left;">Previous</a>
+                        <a href="4_11.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="4_10.html" class="btn" style="float: right;">Urmator</a>
+                        <a href="4_13.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>
@@ -94,6 +113,7 @@
                 <ul>
                     <li><a href="../intrebariFrecvente/intrebariFrecvente.php">Intrebari frecvente</a></li>
                     <li><a href="../topScoliAuto/topScoliAuto.php">Top scoli auto</a></li>
+                    <li><a href="../topUseri/topUseri.php">Top utilizatori</a></li>
                     <li><a href="../home/index.php">Acasa</a></li>
                 </ul>
             </div>

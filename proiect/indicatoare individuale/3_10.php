@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
+ $conectat=0;
+}
+else $conectat=1;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,42 +15,48 @@
         <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="header1">
-            <nav>
-                <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
-                <div class="header1-links">
-                    <ul>
-                        <li><a href="../login+register/register.html">Inregistrare</a></li>
-                        <li><a href="../login+register/login.html">Autentificare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="meniu">
-            <nav>
-                <div class="meniu-links">
-                    <ul>
-                        <li><a href="../legislatie/index.php">Legislatie</a></li>
-                        <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
-                        <li>
-                            <div class="dropdown">
-                                <a href="">Categorii</a>
-                                <i class="fa fa-caret-down"></i>
-                                <div class="dropdown-content">
-                                    <a href="../categorii/categoriaA.php">Categoria A</a>
-                                    <a href="../categorii/categoriaB.php">Categoria B</a>
-                                </div>
+    <div class="header1">
+        <nav>
+            <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
+            <div class="header1-links">
+                <ul>
+                    <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                    <li>
+                        <?php if ($conectat == 0): ?>
+                        <a href="../login+register/login.php">Conectare</a>
+                        <?php else: ?>
+                        <a href="../login+register/logout.php">Deconectare</a>
+                        <?php endif; ?>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="meniu">
+        <nav>
+            <div class="meniu-links">
+                <ul>
+                    <li><a href="../legislatie/index.php">Legislatie</a></li>
+                    <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="">Categorii</a>
+                            <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content">
+                                <a href="../categorii/categoriaA.php">Categoria A</a>
+                                <a href="../categorii/categoriaB.php">Categoria B</a>
                             </div>
-                        </li>
-                        <li><a href="">Chestionare</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                        </div>
+                    </li>
+                    <li><a href="../chestionare/index.php">Chestionare</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
         <div class="container1">
                <div class="panel">
               <div class="panel-heading text-centre">
-              <strong>Direcție obligatorie pentru vehicule care transportă mărfuri periculoase</strong>
+              <strong>Drum pentru pietoni</strong>
               </div>
              <div class="panel-body">
               <div class="row1"> 
@@ -53,24 +66,24 @@
                   </div>
                   <div class="text">
                 <p> 
-                    La întâlnirea acestui indicator rutier, vehiculele care transportă mărfuri periculoase sunt obligate să circule pe direcția indicată de săgeată - la dreapta.
+                    Indicatorul se instalează la capetele pistelor, ori sectoarelor de drum delimitate pe partea carosabilă, destinate exclusiv pietonilor, pe care circulația acestora este obligatorie.
                 </p>
                   </div>
               </div>
               <div class="row1">
                 <div class="column"></div>
                 <div class="column" style="max-width: 100%;">
-                <img src="../indicatoare/indicatoare de obligare/directiemarfa2.png" alt="" style="width:70%; vertical-align: middle;">
+                <img src="../indicatoare/indicatoare de obligare/drumpietoni.png" alt="" style="width:70%; vertical-align: middle;">
               </div>
            </div>
               </div>
               <div class="panel-footer">
                 <div class="row1">
                     <div class="column" style="max-width: 50%;">
-                        <a href="3_16.html" class="btn" style="float: left;">Previous</a>
+                        <a href="3_9.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="3_18.html" class="btn" style="float: right;">Urmator</a>
+                        <a href="3_11.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>
@@ -94,6 +107,7 @@
                 <ul>
                     <li><a href="../intrebariFrecvente/intrebariFrecvente.php">Intrebari frecvente</a></li>
                     <li><a href="../topScoliAuto/topScoliAuto.php">Top scoli auto</a></li>
+                    <li><a href="../topUseri/topUseri.php">Top utilizatori</a></li>
                     <li><a href="../home/index.php">Acasa</a></li>
                 </ul>
             </div>

@@ -62,83 +62,83 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/4_1.html"><img src="orientare1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_1.php"><img src="orientare1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Presemnalizarea direcțiilor la o intersecție de drumuri din afara localității</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_2.html"><img src="orientare2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_2.php"><img src="orientare2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Presemnalizarea direcțiilor la o intersecție denivelată de drumuri</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_3.html"><img src="orientare3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_3.php"><img src="orientare3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Presemnalizarea direcțiilor indicate</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_4.html"><img src="orientare4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_4.php"><img src="orientare4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Presemnalizarea traseului de ocolire a localității</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_5.html"><img src="orientare5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_5.php"><img src="orientare5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Presemnalizare direcțiilor într-o intersecție cu sens giratoriu</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_6.html"><img src="orientare6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_6.php"><img src="orientare6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Drum închis sau deschis circulației publice</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_7.html"><img src="orientare7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_7.php"><img src="orientare7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Presemnalizarea traseului de urmat în cazul unei restricții de circulație</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_8.html"><img src="orientare8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_8.php"><img src="orientare8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Presemnalizare pe autostradă pentru parcare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_9.html"><img src="orientare9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_9.php"><img src="orientare9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Presemnalizare pe autostradă pentru spațiu de servicii</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_10.html"><img src="orientare10.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_10.php"><img src="orientare10.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Confirmarea direcției de mers pe autostradă spre localități mai importante și distanțele până la acestea</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_11.html"><img src="orientare11.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_11.php"><img src="orientare11.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Presemnalizarea unui loc periculos, o intersecție sau o restricție pe un drum lateral</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_12.html"><img src="orientare12.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_12.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_12.php"><img src="orientare12.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_12.php" class="vezi-buton2">vezi detalii</a>
                 <p> Bandă rezervată circulației de transport public de persoane</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_13.html"><img src="orientare13.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_13.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_13.php"><img src="orientare13.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_13.php" class="vezi-buton2">vezi detalii</a>
                 <p> Drum fără ieșire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_14.html"><img src="orientare14.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_14.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_14.php"><img src="orientare14.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_14.php" class="vezi-buton2">vezi detalii</a>
                 <p>Presemnalizarea traseului de urmat în vederea efectuării virajului la stânga</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_15.html"><img src="orientare15.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_15.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_15.php"><img src="orientare15.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_15.php" class="vezi-buton2">vezi detalii</a>
                 <p>Traseu de urmat pentru anumite categorii de autovehicule</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/4_16.html"><img src="orientare16.jpg" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/4_16.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/4_16.php"><img src="orientare16.jpg" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/4_16.php" class="vezi-buton2">vezi detalii</a>
                 <p> Traseu de urmat pentru un anumit tip de autovehicule</p>
             </div>
             <div class="box2">
