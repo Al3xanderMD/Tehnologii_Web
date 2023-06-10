@@ -19,7 +19,7 @@ else $conectat=1;
 <body>
     <div class="header">
         <nav>
-            <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
+            <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
             <div class="header-links">
                 <ul>
                     <li><a href="../login+register/register.html"> Inregistrare </a></li>
@@ -39,14 +39,14 @@ else $conectat=1;
             <div class="meniu-links">
                 <ul>
                     <li><a href="../legislatie/index.html">Legislatie</a></li>
-                    <li><a href="../indicatoare/indicatoare-index/index.html">Indicatoare</a></li>
+                    <li><a href="../indicatoare/indicatoare-index/index.php">Indicatoare</a></li>
                     <li>
                         <div class="dropdown">
                             <a href="">Categorii</a>
                             <i class="fa fa-caret-down"></i>
                             <div class="dropdown-content">
-                                <a href="../categorii/categoriaA.html">Categoria A</a>
-                                <a href="../categorii/categoriaB.html">Categoria B</a>
+                                <a href="../categorii/categoriaA.php">Categoria A</a>
+                                <a href="../categorii/categoriaB.php">Categoria B</a>
                             </div>
                         </div>
                     </li>
@@ -87,19 +87,19 @@ else $conectat=1;
         <span class="dot" onclick="currentSlide(2)"></span>
     </div>
     <div class="row">
-        <a href="../categorii/categoriaA.html">
+        <a href="../categorii/categoriaA.php">
         <div class="box" >
             <i class="fa-solid fa-motorcycle"></i>
             <h1>Categoria A</h1>
         </div>
         </a>
-        <a href="../categorii/categoriaB.html">
+        <a href="../categorii/categoriaB.php">
         <div class="box">
             <i class="fa-solid fa-car"></i>
             <h1>Categoria B</h1>
         </div>
         </a>
-        <a href="../comparatii/comparatii.html">
+        <a href="../comparatii/comparatii.php">
         <div class="box">
             <i class="fa-solid fa-earth-europe"></i>
              <h1>Comparatie</h1>
@@ -115,16 +115,17 @@ else $conectat=1;
     </div>
     <div class="footer-links">
         <ul>
-            <li><a href="../termeni/termeni.html">Termeni</a></li>
+            <li><a href="../termeni/termeni.php">Termeni</a></li>
             <li><a href="">Link-uri utile</a></li>
-            <li><a href="../contact/contact.html">Contact</a></li>
+            <li><a href="../contact/contact.php">Contact</a></li>
         </ul>
     </div>
     <div class="useful-links">
         <ul>
-            <li><a href="../intrebariFrecvente/intrebariFrecvente.html">Intrebari frecvente</a></li>
-            <li><a href="../topScoliAuto/topScoliAuto.html">Top scoli auto</a></li>
-            <li><a href="../home/index.html">Acasa</a></li>
+            <li><a href="../intrebariFrecvente/intrebariFrecvente.php">Intrebari frecvente</a></li>
+            <li><a href="../topScoliAuto/topScoliAuto.php">Top scoli auto</a></li>
+            <li><a href="../topUseri/topUseri.php">Top utilizatori</a></li>
+            <li><a href="../home/index.php">Acasa</a></li>
         </ul>
     </div>
     <div class="feedback">
