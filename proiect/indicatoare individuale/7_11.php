@@ -56,41 +56,45 @@ else $conectat=1;
         <div class="container1">
                <div class="panel">
               <div class="panel-heading text-centre">
-              <strong>Acces pe bază de tichet</strong>
+              <strong>Drum îngustat pe partea stângă</strong>
               </div>
              <div class="panel-body">
               <div class="row1"> 
                 <div class="column" style="max-width: 10%;"></div>
                   <div class="column">
-                      <img src="../indicatoare/indicatoare-index/16.jpg" alt="" style="width:90%;">
+                      <img src="../indicatoare/indicatoare-index/11.jpg" alt="" style="width:90%;">
                   </div>
                   <div class="text">
-                  <p>
-                    Aceste indicatoare informează conducătorii de vehicule asupra modalității de executare a unor manevre, precum și despre existența unor puncte de interes sau a unor locuri unde pot apărea situații periculoase, ca de exemplu treceri de pietoni.
-                  </p>
-                 <p>
-                    Acest indicator rutier, se instalează de obicei în locurile de parcare cu taxă de intrare.
-                 </p>
+                <p> 
+                    Indicatorul din imagine se amplasează la 100-200 de metri de locul în care sectorul de drum începe să se îngusteze pe partea stângă (cu cel puțin jumătate de metru).
+                </p>
+                <p>
+                    La întâlnirea acestui indicator, conducătorul auto este obligat să reducă viteza, iar manevrele de oprire, staționare, mers înapoi și întoarcere sunt interzise. Manevra de depășire este permisă, dar datorită îngustării drumului, există spațiu lateral suficient doar pentru depășirea bicicletelor, mopedelor sau motocicletelor fără ataș.
+                </p>
+                <p>
+                    În cazul în care banda pe care circulați se îngustează atât de mult încât trebuie să intrați pe o altă bandă de circulație, trebuie să acordați prioritate celor de pe banda pe care doriți să intrați. Prioritatea de trecere va avea cel a cărui bandă nu se îngustează.
+                </p>
+                <p>
+                    Pe sectoarele de drum îngustat, unde nu au loc să circule două vehicule, unul pe lângă celălalt, prioritatea va fi reglementă prin indicatoarele „Prioritate față de circulația din sens invers” și „Prioritate pentru circulația din sens invers”.
+                </p>
                   </div>
               </div>
               <div class="row1">
                 <div class="column"></div>
                 <div class="column" style="max-width: 100%;">
-                <img src="../indicatoare/indicatoare de informare/info80.png" alt="" style="width:70%; vertical-align: middle;">
+                <img src="../indicatoare/indicatoare avertizare/avertizare11.png" alt="" style="width:70%; vertical-align: middle;">
               </div>
               <div>
-
               </div>
            </div>
-
               </div>
               <div class="panel-footer">
                 <div class="row1">
                     <div class="column" style="max-width: 50%;">
-                        <a href="5_79.php" class="btn" style="float: left;">Previous</a>
+                        <a href="7_10.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="6_1.php" class="btn" style="float: right;">Urmator</a>
+                        <a href="7_12.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>
