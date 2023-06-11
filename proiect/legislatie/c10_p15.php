@@ -41,8 +41,8 @@ else { $conectat=1;
     <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <section class="header">
+<body class="container">
+
         <div class="header1">
             <nav>
                 <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
