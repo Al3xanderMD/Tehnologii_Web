@@ -62,63 +62,63 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/6_1.html"><img src="turism1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_1.php"><img src="turism1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Castel/Cetate</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_2.html"><img src="turism2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_2.php"><img src="turism2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Vestigii istorice</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_3.html"><img src="turism3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_3.php"><img src="turism3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Monument</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_4.html"><img src="turism4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_4.php"><img src="turism4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Biserică</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_5.html"><img src="turism5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_5.php"><img src="turism5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Mănăstire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_6.html"><img src="turism6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_6.php"><img src="turism6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Rezervație naturală</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_7.html"><img src="turism7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_7.php"><img src="turism7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Cascadă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_8.html"><img src="turism8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_8.php"><img src="turism8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Peșteră</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_9.html"><img src="turism9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_9.php"><img src="turism9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Pârtie ski</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_10.html"><img src="turism10.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_10.php"><img src="turism10.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Teleschi</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_11.html"><img src="turism11.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_11.php"><img src="turism11.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Telecabină</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/6_12.html"><img src="turism12.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/6_12.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/6_12.php"><img src="turism12.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/6_12.php" class="vezi-buton2">vezi detalii</a>
                 <p> Pensiune agroturistică</p>
             </div>
         </div>
