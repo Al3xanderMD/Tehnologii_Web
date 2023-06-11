@@ -2,7 +2,7 @@
 include '../chestionare/database.php';?>
 <?php
 session_start();
-$lectie_curenta = 52;
+$lectie_curenta = 51;
 if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
     $conectat=0;
 }
