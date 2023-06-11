@@ -57,7 +57,7 @@ else $conectat=1;
         <div class="container1">
                <div class="panel">
               <div class="panel-heading text-centre">
-              <strong>Stație de alimentare cu carburanți, inclusiv benzină fără plumb și gaz petrolier lichefiat</strong>
+              <strong>Zonă rezidențială</strong>
               </div>
              <div class="panel-body">
               <div class="row1"> 
@@ -69,15 +69,18 @@ else $conectat=1;
                   <p>
                     Aceste indicatoare informează conducătorii de vehicule asupra modalității de executare a unor manevre, precum și despre existența unor puncte de interes sau a unor locuri unde pot apărea situații periculoase, ca de exemplu treceri de pietoni.
                   </p>
-                  <p>
-                    Indicatorul din imagine se montează în apropierea unei stații de alimentare cu carburanți, inclusiv benzină fără plumb și gaz petrolier lichefiat.
-                  </p>
+                 <p>
+                    Indicatorul alăturat se montează la intrarea în zonele rezidențiale.
+                 </p>
+                 <p>
+                    Sunt zone cu trafic mixt, atât pietonal cât și auto, ceea ce îi obligă pe conducătorii auto să circule cu viteza de cel mult 20 km/h.
+                 </p>
                   </div>
               </div>
               <div class="row1">
                 <div class="column"></div>
                 <div class="column" style="max-width: 100%;">
-                <img src="../indicatoare/indicatoare de informare/info25.png" alt="" style="width:70%; vertical-align: middle;">
+                <img src="../indicatoare/indicatoare de informare/info40.png" alt="" style="width:70%; vertical-align: middle;">
               </div>
               <div>
 
@@ -88,10 +91,10 @@ else $conectat=1;
               <div class="panel-footer">
                 <div class="row1">
                     <div class="column" style="max-width: 50%;">
-                        <a href="5_24.php" class="btn" style="float: left;">Previous</a>
+                        <a href="5_39.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="5_26.php" class="btn" style="float: right;">Urmator</a>
+                        <a href="5_41.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>

@@ -5,7 +5,6 @@ if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
 }
 else $conectat=1;
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -57,7 +56,7 @@ else $conectat=1;
         <div class="container1">
                <div class="panel">
               <div class="panel-heading text-centre">
-              <strong>Stație de alimentare cu carburanți, inclusiv benzină fără plumb și gaz petrolier lichefiat</strong>
+              <strong>Distanța de siguranță între vehicule pentru viteze de cel mult 60 km/h</strong>
               </div>
              <div class="panel-body">
               <div class="row1"> 
@@ -69,15 +68,18 @@ else $conectat=1;
                   <p>
                     Aceste indicatoare informează conducătorii de vehicule asupra modalității de executare a unor manevre, precum și despre existența unor puncte de interes sau a unor locuri unde pot apărea situații periculoase, ca de exemplu treceri de pietoni.
                   </p>
-                  <p>
-                    Indicatorul din imagine se montează în apropierea unei stații de alimentare cu carburanți, inclusiv benzină fără plumb și gaz petrolier lichefiat.
-                  </p>
+                 <p>
+                    Indicatorul precizează care este distanța de siguranță pe care trebuie să o păstrați între vehiculul dumneavoastră și cel din față pentru viteze de cel mult 60 de km/h.
+                 </p>
+                 <p>
+                    Pe indicator se observă un marcaj format din două linii, distanța de siguranță pentru viteze de cel mult 60 de km/h este egală cu două linii ale marcajului longitudinal discontinuu.
+                 </p>
                   </div>
               </div>
               <div class="row1">
                 <div class="column"></div>
                 <div class="column" style="max-width: 100%;">
-                <img src="../indicatoare/indicatoare de informare/info25.png" alt="" style="width:70%; vertical-align: middle;">
+                <img src="../indicatoare/indicatoare de informare/info78.png" alt="" style="width:70%; vertical-align: middle;">
               </div>
               <div>
 
@@ -88,10 +90,10 @@ else $conectat=1;
               <div class="panel-footer">
                 <div class="row1">
                     <div class="column" style="max-width: 50%;">
-                        <a href="5_24.php" class="btn" style="float: left;">Previous</a>
+                        <a href="5_77.php" class="btn" style="float: left;">Previous</a>
                     </div>
                     <div class="column" style="max-width: 50%;">
-                        <a href="5_26.php" class="btn" style="float: right;">Urmator</a>
+                        <a href="5_79.php" class="btn" style="float: right;">Urmator</a>
                     </div>
                 </div>
               </div>
