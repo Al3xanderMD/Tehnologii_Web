@@ -62,48 +62,48 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/16_1.html"><img src="semafor1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_1.php"><img src="semafor1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semafor</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_2.html"><img src="semafor2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_2.php"><img src="semafor2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semafor cu indicarea direcției de deplasare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_3.html"><img src="semafor3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_3.php"><img src="semafor3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Semafor combinat cu dispozitiv de cronometrare a timpului aferent culorii</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_4.html"><img src="semafor4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_4.php"><img src="semafor4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semafor cu panou de contrast</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_5.html"><img src="semafor5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_5.php"><img src="semafor5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Semafor pentru biciclete</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_6.html"><img src="semafor6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_6.php"><img src="semafor6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semafor pentru pietoni</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_7.html"><img src="semafor7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_7.php"><img src="semafor7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semafor pentru pietoni combinat cu dispozitiv de cronometrare a timpului aferent culorii</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_8.html"><img src="semafor8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_8.php"><img src="semafor8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Semafor de avertizare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/16_9.html"><img src="semafor9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/16_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/16_9.php"><img src="semafor9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/16_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semafor pentru tramvaie</p>
             </div>
         </div>

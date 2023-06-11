@@ -62,63 +62,63 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/14_1.html"><img src="politia1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_1.php"><img src="politia1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Atenție Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_2.html"><img src="politia2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_2.php"><img src="politia2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_3.html"><img src="politia3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_3.php"><img src="politia3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_4.html"><img src="politia4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_4.php"><img src="politia4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_5.html"><img src="politia5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_5.php"><img src="politia5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_6.html"><img src="politia6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_6.php"><img src="politia6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_7.html"><img src="politia7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_7.php"><img src="politia7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Reduceți viteza</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_8.html"><img src="politia8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_8.php"><img src="politia8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Măriți viteza</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_9.html"><img src="politia9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_9.php"><img src="politia9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_9.php" class="vezi-buton2">vezi detalii</a>
                 <p>Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_10.html"><img src="politia10.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_10.php"><img src="politia10.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Reduceți viteza</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_11.html"><img src="politia11.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_11.php"><img src="politia11.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/14_12.html"><img src="politia12.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/14_12.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/14_12.php"><img src="politia12.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/14_12.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semnalele polițistului din mașina de poliție</p>
             </div>
         </div>
