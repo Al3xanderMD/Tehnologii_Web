@@ -41,8 +41,7 @@ else { $conectat=1;
     <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <section class="header">
+<body class="container">
         <div class="header1">
             <nav>
                 <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
@@ -81,6 +80,7 @@ else { $conectat=1;
                 </div>
             </nav>
         </div>
+        <main class="content">
         <script type="text/javascript">
             function handleSelect(elm) {
                 window.location = elm.value + ".html";
@@ -163,6 +163,13 @@ else { $conectat=1;
             </p>
 
         </div>
+        <div class="progress-container">
+            <?php
+            $formattedProgress = number_format($progres, 1);
+            ?>
+            <progress class="progress-bar" value="<?php echo $progres; ?>" max="100"></progress>
+            <div class="progress-text"><?php echo $formattedProgress; ?>%</div>
+        </div>
         <div class="dropdown">
             <label for="lectii">Lectii: </label>
             <select name="" id="lectii" onchange="javascript:handleSelect(this)">
@@ -236,7 +243,7 @@ else { $conectat=1;
                 </div>
             </select>
         </div>
-    </section>
+        </main>
     <div class="footer">
         <div class="footer-details">
         <h4>Despre noi</h4>
