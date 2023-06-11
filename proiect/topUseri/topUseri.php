@@ -1,7 +1,6 @@
 
 <?php global $mysqli;
 include '../chestionare/database.php';?>
-<?php session_start(); ?>
 <?php
 
 

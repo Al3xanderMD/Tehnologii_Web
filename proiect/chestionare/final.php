@@ -1,6 +1,12 @@
 <?php global $mysqli;
 include 'database.php'; ?>
-<?php session_start(); ?>
+<?php
+session_start();
+if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
+    $conectat=0;
+}
+else $conectat=1;
+?>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -13,11 +19,17 @@ include 'database.php'; ?>
 <body>
 <div class="header">
     <nav>
-        <a href="index.html"><img src="../images/logo2.png" alt="Logo"></a>
+        <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
         <div class="header-links">
             <ul>
-                <li><a href="../login+register/register.html">Inregistrare</a></li>
-                <li><a href="../login+register/login.php">Autentificare</a></li>
+                <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                <li>
+                    <?php if ($conectat == 0): ?>
+                        <a href="../login+register/login.php">Conectare</a>
+                    <?php else: ?>
+                        <a href="../login+register/logout.php">Deconectare</a>
+                    <?php endif; ?>
+                </li>
             </ul>
         </div>
     </nav>
@@ -38,7 +50,7 @@ include 'database.php'; ?>
                         </div>
                     </div>
                 </li>
-                <li><a href="">Chestionare</a></li>
+                <li><a href="../chestionare/index.php">Chestionare</a></li>
             </ul>
         </div>
     </nav>
@@ -53,7 +65,7 @@ include 'database.php'; ?>
             else {echo "Ai picat!"; $userId = $_SESSION['user_id'];   $query = "UPDATE user SET teste_picate = teste_picate + 1 WHERE id = $userId" ;$mysqli->query($query) or die($mysqli->error . __LINE__);}
             ?></p>
         <p>Scor final: <?php echo $_SESSION['score'];  session_destroy();?> </p>
-        <a href="index_quiz.php" class ="start">Rezolva din nou</a>
+        <a href="index.php" class ="start">Rezolva din nou</a>
     </div>
 </main>
     <footer class="footer">
@@ -74,7 +86,8 @@ include 'database.php'; ?>
             <ul>
                 <li><a href="../intrebariFrecvente/intrebariFrecvente.php">Intrebari frecvente</a></li>
                 <li><a href="../topScoliAuto/topScoliAuto.php">Top scoli auto</a></li>
-                <li><a href="../home/index.html">Acasa</a></li>
+                <li><a href="../topUseri/topUseri.php">Top utilizatori</a></li>
+                <li><a href="../home/index.php">Acasa</a></li>
             </ul>
         </div>
         <div class="feedback">
