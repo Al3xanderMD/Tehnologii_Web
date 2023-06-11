@@ -16,8 +16,7 @@ else $conectat=1;
     <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="header">
+<body class="container">
         <div class="header1">
             <nav>
                 <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
@@ -56,6 +55,7 @@ else $conectat=1;
                 </div>
             </nav>
         </div>
+        <main class="content">
         <script type="text/javascript">
             function handleSelect(elm) {
                 window.location = elm.value + ".html";
@@ -162,7 +162,7 @@ else $conectat=1;
         </div>
         <div class="dropdown">
             <label for="lectii">Lectii: </label>
-            <select name="" id="lectii" onchange="javascript:handleSelect(this)">
+            <select name="select" id="lectii" onchange="javascript:handleSelect(this)">
                 <div class="dropdown-options">
                     <option value="">...</option>
                     <option value="c1_p1">Capitolul 1 - partea 1 - Drumul public</option>
@@ -233,7 +233,7 @@ else $conectat=1;
                 </div>
             </select>
         </div>
-    </div>
+        </main>
     <div class="footer">
         <div class="footer-details">
         <h4>Despre noi</h4>

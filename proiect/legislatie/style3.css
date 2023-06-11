@@ -8,7 +8,7 @@ html {
     background-position: center;
 }
 .video {
-    position: none; 
+    position:none;
     bottom: 0;
     margin-left: 13%;
     margin-top:5%;
@@ -103,16 +103,46 @@ html {
 }
 
 .dropdown-options:hover{
-    border:1 px solid black;
+    border:1px solid black;
     background:#1da2d8;
     transition: 1s;
 }
 
 .vezi-buton:hover {
-    border: 1 px solid black;
+    border: 1px solid black;
     background: #1da2d8;
     transition: 1s;
 }
+/*.progress-container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 200px; !* Adjust the container height as desired *!*/
+/*}*/
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Adjust the text color as desired */
+    font-weight: bold;
+}
+.progress-container {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+       height: 200px;
+        position: relative;
+}
+
+.progress-bar {
+    width: 500px;
+    height: 40px;
+}
+/*.progress-bar {*/
+/*    width: 500px; !* Adjust the width as desired *!*/
+/*    height: 40px; !* Adjust the height as desired *!*/
+/*}*/
 
 @media (max-width: 400px) {
     .box1 {

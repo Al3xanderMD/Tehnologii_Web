@@ -154,6 +154,7 @@ html{
     transition: 1s;
 }
 
+
 @media (min-width: 1901px) {
     .text-box { grid-template-columns: repeat(5, 1fr); }
     .text-box2 { grid-template-columns: repeat(5, 1fr); }
