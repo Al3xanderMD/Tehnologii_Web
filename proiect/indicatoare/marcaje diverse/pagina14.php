@@ -62,58 +62,58 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/13_1.html"><img src="divers1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_1.php"><img src="divers1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj de ghidare la traversarea unei intersecții</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_2.html"><img src="divers2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_2.php"><img src="divers2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj de ghidare în intersecție</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_3.html"><img src="divers3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_3.php"><img src="divers3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj pentru spații înguste</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_4.html"><img src="divers4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_4.php"><img src="divers4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj la îngustarea drumului cu o bandă de sens</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_5.html"><img src="divers5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_5.php"><img src="divers5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj pe drum cu trei benzi pentru alocarea alternativă a două benzi pentru unul sau celălat sens de circulație</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_6.html"><img src="divers6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_6.php"><img src="divers6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Spații închise circulației</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_7.html"><img src="divers7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_7.php"><img src="divers7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Interzicerea staționării</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_8.html"><img src="divers8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_8.php"><img src="divers8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcajul benzii rezervate circulației autovehiculelor de transport persoane</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_9.html"><img src="divers9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_9.php"><img src="divers9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Stație autovehicule de transport în comun</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_10.html"><img src="divers10.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_10.php"><img src="divers10.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Locuri de parcare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/13_11.html"><img src="divers11.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/13_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/13_11.php"><img src="divers11.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/13_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Locuri de parcare</p>
             </div>
         </div>

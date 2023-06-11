@@ -62,28 +62,28 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/11_1.html"><img src="transversal1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/11_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/11_1.php"><img src="transversal1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/11_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj de oprire</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/11_2.html"><img src="transversal2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/11_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/11_2.php"><img src="transversal2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/11_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj de cedarea trecerii</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/11_3.html"><img src="transversal3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/11_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/11_3.php"><img src="transversal3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/11_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Benzi rezonatoare din marcaj rutier</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/11_4.html"><img src="transversal4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/11_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/11_4.php"><img src="transversal4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/11_4.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaje de traversare pentru pietoni</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/11_5.html"><img src="transversal5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/11_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/11_5.php"><img src="transversal5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/11_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj de traversare pentru biciclete</p>
             </div>
         </div>

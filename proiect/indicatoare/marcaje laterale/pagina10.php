@@ -62,63 +62,63 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/10_1.html"><img src="laterale1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_1.php"><img src="laterale1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaje pe ziduri de sprijin și pe infrastructurile pasajelor inferioare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_2.html"><img src="laterale2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_2.php"><img src="laterale2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaje pe ziduri de sprijin și pe infrastructurile pasajelor inferioare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_3.html"><img src="laterale3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_3.php"><img src="laterale3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaje la pasaje care nu au asigurat gabaritul de înălțime</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_4.html"><img src="laterale4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_4.php"><img src="laterale4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaje pe parapete</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_5.html"><img src="laterale5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_5.php"><img src="laterale5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaje pe coronamentele podețelor</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_6.html"><img src="laterale6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_6.php"><img src="laterale6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaje la refugii pe partea carosabilă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_7.html"><img src="laterale7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_7.php"><img src="laterale7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaje pe borduri</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_8.html"><img src="laterale8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_8.php"><img src="laterale8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaje de interzicere a depășirii în unele curbe deosebit de periculoase</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_9.html"><img src="laterale9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_9.php"><img src="laterale9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj de reducere a vitezei înaintea unor curbe deosebit de periculoase</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_10.html"><img src="laterale10.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_10.php"><img src="laterale10.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Săgeți de revenire pe banda aferentă sensului de mers</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_11.html"><img src="laterale11.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_11.php"><img src="laterale11.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Săgeți de schimbare a benzii de circulație</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/10_12.html"><img src="laterale12.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/10_12.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/10_12.php"><img src="laterale12.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/10_12.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaje inscripționate pe partea carosabilă</p>
             </div>
         </div>

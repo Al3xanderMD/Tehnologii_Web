@@ -62,58 +62,58 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/12_1.html"><img src="long1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_1.php"><img src="long1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_1.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj de separare a sensurilor de circulaţie format dintr-o linie discontinuă simplă. Marcaj de delimitare a părţii carosabile cu linie discontinuă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_2.html"><img src="long2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_2.php"><img src="long2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_2.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj de separare a sensurilor de circulaţie format dintr-o linie continuă simplă. Marcaj de delimitare a părţii carosabile cu linie discontinuă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_3.html"><img src="long3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_3.php"><img src="long3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj de separare a sensurilor de circulaţie format dintr-o linie continuă dublă. Marcaj de delimitare a benzilor de circulaţie de acelaşi sens cu linie discontinuă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_4.html"><img src="long4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_4.php"><img src="long4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_4.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj de separare a sensurilor de circulaţie format dintr-o linie continuă, dublată de una discontinuă. Marcaj de delimitare a părţii carosabile cu linie continuă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_5.html"><img src="long5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_5.php"><img src="long5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj pentru benzi cu circulaţia reversibilă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_6.html"><img src="long6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_6.php"><img src="long6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj pentru drumuri cu zonă verde de separare a sensurilor de circulație</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_7.html"><img src="long7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_7.php"><img src="long7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaj la apropierea unei intersecții</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_8.html"><img src="long8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_8.php"><img src="long8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Marcaj pe o bandă de decelerare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_9.html"><img src="long9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_9.php"><img src="long9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcaje pe o bandă de accelerare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_10.html"><img src="long10.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_10.php"><img src="long10.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcajul benzii suplimentare pentru vehicule lente</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/12_11.html"><img src="long11.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/12_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/12_11.php"><img src="long11.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/12_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Marcajul benzii de stocaj pentru virajul stânga</p>
             </div>
         </div>

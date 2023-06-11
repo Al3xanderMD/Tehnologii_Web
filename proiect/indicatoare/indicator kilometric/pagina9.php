@@ -62,23 +62,23 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/9_1.html"><img src="kilo1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/9_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/9_1.php"><img src="kilo1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/9_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Drum național</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/9_3.html"><img src="kilo2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/9_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/9_3.php"><img src="kilo2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/9_3.php" class="vezi-buton2">vezi detalii</a>
                 <p> Drum județean</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/9_2.html"><img src="kilo3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/9_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/9_2.php"><img src="kilo3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/9_2.php" class="vezi-buton2">vezi detalii</a>
                 <p>Drum comunal</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/9_4.html"><img src="hecto.png" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/9_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/9_4.php"><img src="hecto.png" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/9_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Indicator hectometric</p>
             </div>
         </div>
