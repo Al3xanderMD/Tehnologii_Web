@@ -1,9 +1,34 @@
+<?php global $mysqli;
+include '../chestionare/database.php';?>
 <?php
 session_start();
+$lectie_curenta = 43;
 if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
     $conectat=0;
 }
-else $conectat=1;
+else { $conectat=1;
+    $user_id=$_SESSION['user_id'];
+    $query = "SELECT lectii_completate FROM user WHERE id = $user_id";
+    $rezultat = $mysqli->query($query) or die($mysqli->error . __LINE__);
+    $rand = mysqli_fetch_assoc($rezultat);
+    $lectii_completate = $rand['lectii_completate'];
+
+    $query = "SELECT progres FROM user WHERE id = $user_id";
+    $rezultat=$mysqli->query($query) or die($mysqli->error . __LINE__);
+    $rand = mysqli_fetch_assoc($rezultat);
+    $progres = $rand['progres'];
+
+// Verifică dacă lectia curenta a fost deja completată
+    if ($lectii_completate[$lectie_curenta ] == '0') {
+        // Actualizează progresul doar dacă lectia curenta nu a fost completată anterior
+        $query = "UPDATE user SET progres = progres + 1.5384615385 WHERE id = $user_id";
+        $mysqli->query($query) or die($mysqli->error . __LINE__);
+
+        // Actualizează starea de completare a lectiilor
+        $lectii_completate[$lectie_curenta] = '1';
+        $query = "UPDATE user SET lectii_completate = '$lectii_completate' WHERE id= $user_id";
+        $mysqli->query($query) or die($mysqli->error . __LINE__);
+    }}
 ?>
 <!DOCTYPE html>
 <html>
