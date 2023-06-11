@@ -61,18 +61,18 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/15_1.html"><img src="ferata1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/15_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/15_1.php"><img src="ferata1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/15_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Trecere la nivel cu o cale ferată simplă, fără bariere, prevăzută cu semnale luminoase de avertizare a apropierii trenului</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/15_2.html"><img src="ferata2.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/15_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/15_2.php"><img src="ferata2.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/15_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Trecere la nivel cu o cale ferată dublă, fără bariere, prevăzută cu semnale luminoase de avertizare a apropierii trenului</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/15_3.html"><img src="ferata3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/15_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/15_3.php"><img src="ferata3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/15_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Trecere la nivel cu o cale ferată simplă cu semibarieră, prevăzută cu semnale luminoase de avertizare a apropierii trenului</p>
             </div>
         </div>

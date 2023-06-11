@@ -62,73 +62,73 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/19_1.html"><img src="aux1.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_1.php"><img src="aux1.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Ghirlandă polietilenă sau lanț</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_2.html"><img src="aux2.png" alt ="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_2.php"><img src="aux2.png" alt ="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Semafor mobil</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_3.html"><img src="aux3.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_3.php"><img src="aux3.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Baliză direcțională care indică ocolirea obstacolului prin stânga</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_4.html"><img src="aux4.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_4.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_4.php"><img src="aux4.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_4.php" class="vezi-buton2">vezi detalii</a>
                 <p> Baliză direcțională care indică ocolirea obstacolului prin dreapta</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_5.html"><img src="aux5.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_5.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_5.php"><img src="aux5.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_5.php" class="vezi-buton2">vezi detalii</a>
                 <p>Baliză tip jalon</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_6.html"><img src="aux6.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_6.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_6.php"><img src="aux6.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_6.php" class="vezi-buton2">vezi detalii</a>
                 <p> Baliză bidirecțională</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_7.html"><img src="aux7.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_7.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_7.php"><img src="aux7.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_7.php" class="vezi-buton2">vezi detalii</a>
                 <p> Con de dirijare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_8.html"><img src="aux8.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_8.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_8.php"><img src="aux8.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_8.php" class="vezi-buton2">vezi detalii</a>
                 <p>Balize cuplate cu lămpi de lumină galbenă intermitentă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_9.html"><img src="aux9.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_9.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_9.php"><img src="aux9.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_9.php" class="vezi-buton2">vezi detalii</a>
                 <p> Lampă cu lumină galbenă intermitentă</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_10.html"><img src="aux10.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_10.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_10.php"><img src="aux10.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_10.php" class="vezi-buton2">vezi detalii</a>
                 <p> Barieră normală</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_11.html"><img src="aux11.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_11.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_11.php"><img src="aux11.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_11.php" class="vezi-buton2">vezi detalii</a>
                 <p> Barieră bidirecțională</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_12.html"><img src="aux12.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_12.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_12.php"><img src="aux12.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_12.php" class="vezi-buton2">vezi detalii</a>
                 <p> Fanion de semnalizare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_13.html"><img src="aux13.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_13.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_13.php"><img src="aux13.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_13.php" class="vezi-buton2">vezi detalii</a>
                 <p> Căricioare postsemnalizare</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/19_14.html"><img src="aux14.png" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/19_14.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/19_14.php"><img src="aux14.png" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/19_14.php" class="vezi-buton2">vezi detalii</a>
                 <p> Palete de semnalizare</p>
             </div>
         </div>

@@ -62,18 +62,18 @@ else $conectat=1;
         </div>
         <div class="text-box2">
             <div class="box2">
-                <a href="../../indicatoare individuale/17_1.html"><img src="disp1.gif" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/17_1.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/17_1.php"><img src="disp1.gif" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/17_1.php" class="vezi-buton2">vezi detalii</a>
                 <p> Dispoziții luminoase pentru dirijarea circulația pe benzi reversibile</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/17_2.html"><img src="disp2.gif" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/17_2.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/17_2.php"><img src="disp2.gif" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/17_2.php" class="vezi-buton2">vezi detalii</a>
                 <p> Dispoziții luminoase pentru dirijarea circulația pe benzi reversibile</p>
             </div>
             <div class="box2">
-                <a href="../../indicatoare individuale/17_3.html"><img src="disp3.jpg" alt="" style="width:100%;"></a>
-                <a href="../../indicatoare individuale/17_3.html" class="vezi-buton2">vezi detalii</a>
+                <a href="../../indicatoare%20individuale/17_3.php"><img src="disp3.jpg" alt="" style="width:100%;"></a>
+                <a href="../../indicatoare%20individuale/17_3.php" class="vezi-buton2">vezi detalii</a>
                 <p>Panou cu mesaje variabile</p>
             </div>
         </div>
