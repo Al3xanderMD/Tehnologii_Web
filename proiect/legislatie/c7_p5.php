@@ -41,8 +41,7 @@ else { $conectat=1;
     <script src="https://kit.fontawesome.com/0070301605.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <section class="header">
+<body class="container">
         <div class="header1">
             <nav>
                 <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
@@ -81,6 +80,7 @@ else { $conectat=1;
                 </div>
             </nav>
         </div>
+        <main class="content">
         <script type="text/javascript">
             function handleSelect(elm) {
                 window.location = elm.value + ".html";
@@ -199,7 +199,7 @@ else { $conectat=1;
                 </div>
             </select>
         </div>
-    </section>
+        </main>
     <div class="footer">
         <div class="footer-details">
         <h4>Despre noi</h4>

@@ -519,6 +519,13 @@ else { $conectat=1;
             </p>
 
         </div>
+        <div class="progress-container">
+            <?php
+            $formattedProgress = number_format($progres, 1);
+            ?>
+            <progress class="progress-bar" value="<?php echo $progres; ?>" max="100"></progress>
+            <div class="progress-text"><?php echo $formattedProgress; ?>%</div>
+        </div>
         <div class="dropdown">
             <label for="lectii">Lectii: </label>
             <select name="" id="lectii" onchange="javascript:handleSelect(this)">
