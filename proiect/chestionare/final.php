@@ -61,8 +61,9 @@ else $conectat=1;
 <main>
     <div class = "container3">
        <h2>Ai terminat!</h2>
-        <p><?php if($_SESSION['score']>=3){ echo "Ai trecut!";$userId = $_SESSION['user_id'];   $query = "UPDATE user SET teste_trecute = teste_trecute + 1 WHERE id = $userId" ;$mysqli->query($query) or die($mysqli->error . __LINE__);}
-            else {echo "Ai picat!"; $userId = $_SESSION['user_id'];   $query = "UPDATE user SET teste_picate = teste_picate + 1 WHERE id = $userId" ;$mysqli->query($query) or die($mysqli->error . __LINE__);}
+        <p><?php if($_SESSION['score']>=3){ echo "Ai trecut!";
+            if($conectat==1){$userId = $_SESSION['user_id'];   $query = "UPDATE user SET teste_trecute = teste_trecute + 1 WHERE id = $userId" ;$mysqli->query($query) or die($mysqli->error . __LINE__);}}
+            else {echo "Ai picat!"; if($conectat==1){ $userId = $_SESSION['user_id'];   $query = "UPDATE user SET teste_picate = teste_picate + 1 WHERE id = $userId" ;$mysqli->query($query) or die($mysqli->error . __LINE__);}}
             ?></p>
         <p>Scor final: <?php echo $_SESSION['score'];  session_destroy();?> </p>
         <a href="index.php" class ="start">Rezolva din nou</a>
