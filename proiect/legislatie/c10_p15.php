@@ -83,7 +83,7 @@ else { $conectat=1;
         </div>
         <script type="text/javascript">
             function handleSelect(elm) {
-                window.location = elm.value + ".html";
+                window.location = elm.value + ".php";
             }
         </script>
 
