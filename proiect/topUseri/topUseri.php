@@ -34,12 +34,12 @@ else $conectat=1;
         <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
         <div class="header-links">
             <ul>
-                <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                <li><a href="../auth/register.php"> Inregistrare </a></li>
                 <li>
                     <?php if ($conectat == 0): ?>
-                        <a href="../login+register/login.php">Conectare</a>
+                        <a href="../auth/login.php">Conectare</a>
                     <?php else: ?>
-                        <a href="../login+register/logout.php">Deconectare</a>
+                        <a href="../auth/logout.php">Deconectare</a>
                     <?php endif; ?>
                 </li>
             </ul>
@@ -71,7 +71,7 @@ else $conectat=1;
     <h1>TOP utilizatori</h1>
     <h3>In functie de rata de promovabilitate la chestionare </h3>
 </div>
-<h1 class="judet">TOP</h1>
+<h1 class="judet"> <a href="rss.php">TOP</a> </h1>
 <table>
     <tr>
         <th>Utilizator</th>

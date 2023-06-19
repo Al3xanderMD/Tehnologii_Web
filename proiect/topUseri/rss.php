@@ -1,7 +1,7 @@
 <?php
 global $mysqli;
 include '../chestionare/database.php';
-
+header('Access-Control-Allow-Origin: *');
 // Fetch the user data from your local database
 $query = "SELECT * FROM `user` ORDER BY teste_trecute DESC";
 $results = $mysqli->query($query) or die($mysqli->error.__LINE__);
@@ -33,7 +33,10 @@ $channel->appendChild($link);
 
 // Iterate over the user data and create <item> elements
 while ($row = $results->fetch_assoc()) {
-    $item = $xml->createElement('item');
+    try {
+        $item = $xml->createElement('item');
+    } catch (DOMException $e) {
+    }
 
     $userTitle = $xml->createElement('title', $row['username']);
     $item->appendChild($userTitle);

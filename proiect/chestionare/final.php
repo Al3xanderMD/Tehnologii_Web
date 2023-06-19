@@ -22,12 +22,12 @@ else $conectat=1;
         <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
         <div class="header-links">
             <ul>
-                <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                <li><a href="../auth/register.php"> Inregistrare </a></li>
                 <li>
                     <?php if ($conectat == 0): ?>
-                        <a href="../login+register/login.php">Conectare</a>
+                        <a href="../auth/login.php">Conectare</a>
                     <?php else: ?>
-                        <a href="../login+register/logout.php">Deconectare</a>
+                        <a href="../auth/logout.php">Deconectare</a>
                     <?php endif; ?>
                 </li>
             </ul>
@@ -65,7 +65,7 @@ else $conectat=1;
             if($conectat==1){$userId = $_SESSION['user_id'];   $query = "UPDATE user SET teste_trecute = teste_trecute + 1 WHERE id = $userId" ;$mysqli->query($query) or die($mysqli->error . __LINE__);}}
             else {echo "Ai picat!"; if($conectat==1){ $userId = $_SESSION['user_id'];   $query = "UPDATE user SET teste_picate = teste_picate + 1 WHERE id = $userId" ;$mysqli->query($query) or die($mysqli->error . __LINE__);}}
             ?></p>
-        <p>Scor final: <?php echo $_SESSION['score'];  session_destroy();?> </p>
+        <p>Scor final: <?php echo $_SESSION['score'];   $_SESSION['score']=0; ?> </p>
         <a href="index.php" class ="start">Rezolva din nou</a>
     </div>
 </main>

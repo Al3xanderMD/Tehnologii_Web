@@ -1,22 +1,24 @@
 <?php global $mysqli;
-include 'database.php';?>
+include 'database.php';
+include '../controllers/ControllerChestionare.php'?>
 <?php
-$number = (int) $_GET['n'];
+$uri = $_SERVER['REQUEST_URI'];
+$parameters = parse_url($uri, PHP_URL_QUERY);
+parse_str($parameters, $params);
+$_SESSION['number'] = isset($params['n']) ? (int) $params['n'] : 0;
 
-$query = "SELECT * FROM `questions`";
-$results = $mysqli->query($query) or die($mysqli->error.__LINE__);
-$total = $results->num_rows;
+$requestMethod = $_SERVER["REQUEST_METHOD"];
 
-$query = "SELECT * FROM `questions` WHERE question_number =$number";
-$results = $mysqli->query($query) or die($mysqli->error.__LINE__);
-$question = $results->fetch_assoc();
 
-$query="SELECT * FROM `choices`  WHERE question_number= $number";
+$controller = new ControllerChestionare($_SESSION['number'], $requestMethod);
+$controller->processRequest();
+if (isset($_SESSION['response1']))
+echo "<script>console.log('Scor:', " . json_encode($_SESSION['response1']['body']) . ", " . json_encode($_SESSION['response1']['status_code_header']) . ");</script>";
+$nr=$_SESSION['number'];
+$query="SELECT * FROM `choices`  WHERE question_number= $nr";
 $choices= $mysqli->query($query) or die ($mysqli->error.__LINE__);
-
 ?>
 <?php
-session_start();
 if (!isset($_SESSION['user_id']) || session_status() === PHP_SESSION_NONE) {
     $conectat=0;
 }
@@ -38,12 +40,12 @@ else $conectat=1;
         <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
         <div class="header-links">
             <ul>
-                <li><a href="../login+register/register.html"> Inregistrare </a></li>
+                <li><a href="../auth/register.php"> Inregistrare </a></li>
                 <li>
                     <?php if ($conectat == 0): ?>
-                        <a href="../login+register/login.php">Conectare</a>
+                        <a href="../auth/login.php">Conectare</a>
                     <?php else: ?>
-                        <a href="../login+register/logout.php">Deconectare</a>
+                        <a href="../auth/logout.php">Deconectare</a>
                     <?php endif; ?>
                 </li>
             </ul>
@@ -76,18 +78,18 @@ else $conectat=1;
     </div>
 <main>
     <div class = "container3">
-        <div class="current">Intrebare <?php if($question['question_number']%5==0) echo "5" ; else echo  $question['question_number']%5; ?> din <?php echo "5"  ?></div>
+        <div class="current">Intrebare <?php if($_SESSION['question']['question_number']%5==0) echo "5" ; else echo  $_SESSION['question']['question_number']%5; ?> din <?php echo "5"  ?></div>
         <p class ="question">
-         <?php echo $question['text'];  ?>
+         <?php echo $_SESSION['question']['text'];  ?>
         </p>
-        <form method="post" action="process.php">
+            <form method="post" action="process.php">
               <ul class="choices">
                   <?php while($row=$choices->fetch_assoc()):?>
                       <li><input name = "choices[]" type="checkbox" value="<?php echo $row['id']; ?>" /> <?php echo $row['text']; ?></li>
                   <?php endwhile; ?>
               </ul>
         <input type="submit" value="Submit"/>
-        <input type="hidden" name ="number" value ="<?php echo $number; ?>"/>
+        <input type="hidden" name ="number" value ="<?php echo $_SESSION['number']; ?>"/>
         </form>
     </div>
 </main>
@@ -140,5 +142,6 @@ else $conectat=1;
         <i class="fa-brands fa-linkedin"></i>
     </div>
 </footer>
+
 </body>
 </html>
