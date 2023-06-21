@@ -21,7 +21,7 @@ else $conectat=1;
     <div class="header1">
         <nav>
             <a href="../home/index.php"><img src="../images/logo2.png" alt="Logo"></a>
-            <div class="header-links">
+            <div class="header1-links">
                 <ul>
                     <li><a href="../auth/register.php"> Inregistrare </a></li>
                     <li>
