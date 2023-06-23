@@ -21,7 +21,7 @@ $channel->appendChild($title);
 $description = $xml->createElement('description', 'Top utilizatori');
 $channel->appendChild($description);
 //echo json_encode($channel);
-$link = $xml->createElement('link', 'http://localhost:63342/proiect/proiect/topUseri/topUseri.php'); // Replace with the URL of your topUseri.php page
+$link = $xml->createElement('link', 'http://localhost:63342/proiect/proiect/topUseri/topUseri.php');
 $channel->appendChild($link);
 
 while ($row = $results->fetch_assoc()) {
